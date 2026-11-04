@@ -1,0 +1,6 @@
+group,mean_abs_shap,relative_percent
+Authentication,2.3499238,49.90041
+Temporal,0.89204705,18.942535
+Activity/history,0.7442645,15.804386
+Network,0.5773517,12.260009
+Geography,0.14564043,3.0926607

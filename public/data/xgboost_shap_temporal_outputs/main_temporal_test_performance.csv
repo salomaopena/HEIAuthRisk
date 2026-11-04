@@ -1,0 +1,2 @@
+model,split,events,positive_prevalence,roc_auc,pr_auc
+main_with_month,temporal_holdout,11033,0.07142209734433065,0.8995856589694614,0.4086930394157066
