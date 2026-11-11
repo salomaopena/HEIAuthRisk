@@ -2,6 +2,6 @@ credentials.json
 __pycache__/
 *.pyc
 .pytest_cache/
-.env/*
-/.env/*
+.venv/*
+/.venv/*
 /restricted/*

@@ -1,4 +1,4 @@
-# Quality and Audit Report — SuspiciousLogin v2.0 (42/50)
+# Quality and Audit Report — HEIAuthRisk (42/50)
 
 ## 1. Scope
 

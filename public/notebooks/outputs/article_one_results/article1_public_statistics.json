@@ -1,5 +1,5 @@
 {
-  "dataset_name": "SuspiciousLogin",
+  "dataset_name": "HEIAuthRisk",
   "dataset_version": "2.0",
   "public_sha256": "47be2f74f1c1db3f1dbed2cf4343ca099de9a1ca59373c1b5eff2686688073ec",
   "events": 73526,

@@ -1,15 +1,15 @@
 {
-  "dataset_name": "SuspiciousLogin",
-  "dataset_version": "2.0",
-  "schema_version": "2.0",
-  "generated_at_utc": "2026-10-23T10:56:20.459554+00:00",
+  "dataset_name": "HEIAuthRisk",
+  "dataset_version": "1.0",
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-10T22:36:31.419640+00:00",
   "canonical_actor_ordering": "actor_pseudo_id_asc_then_event_time_utc_asc_then_event_id_asc",
   "release_ordering": "event_time_utc_asc_then_event_id_asc",
   "history_tie_breaker": "event_id_asc_for_equal_actor_and_event_time",
   "timezone": "UTC",
   "time_min": "2025-12-19T19:56:08.276000+00:00",
   "time_max": "2026-08-12T16:14:21.545000+00:00",
-  "rows": 73526,
+  "rows": 73527,
   "unique_users": 12190,
   "singleton_users": 347,
   "provider_suspicious_domain": [
@@ -17,10 +17,10 @@
     1
   ],
   "provider_suspicious_positive": 7196,
-  "provider_suspicious_proportion": 0.09787014117455049,
+  "provider_suspicious_proportion": 0.09786881009697118,
   "raw_file_count": 19,
   "removed_empty_rows": 241,
-  "removed_invalid_core_rows": 3,
+  "removed_invalid_core_rows": 0,
   "removed_duplicate_rows": 89,
   "institution_count_restricted": 2,
   "public_columns": [
@@ -33,7 +33,7 @@
     "is_weekend",
     "prior_event_count",
     "hours_since_last_login",
-    "hours_since_first_observed_login",
+    "hours_since_first_login",
     "logins_24h",
     "logins_7d",
     "logins_30d",
@@ -77,7 +77,7 @@
     "is_weekend",
     "prior_event_count",
     "hours_since_last_login",
-    "hours_since_first_observed_login",
+    "hours_since_first_login",
     "logins_24h",
     "logins_7d",
     "logins_30d",
@@ -134,7 +134,7 @@
   ],
   "exact_time_features": [
     "hours_since_last_login",
-    "hours_since_first_observed_login",
+    "hours_since_first_login",
     "logins_24h",
     "logins_7d",
     "logins_30d",
@@ -142,7 +142,7 @@
     "travel_speed_kmh"
   ],
   "country_policy": "normalized ip_country preserved; continent deterministically derived; no release-time rare-country grouping",
-  "continent_mapping": "COUNTRY_TO_CONTINENT_V2 embedded versioned mapping",
+  "continent_mapping": "COUNTRY_TO_CONTINENT_v1 embedded versioned mapping",
   "internal_fields_not_released": [
     "source_file_id",
     "actor_email_hash",
@@ -162,14 +162,14 @@
     "is_anomaly"
   ],
   "files": {
-    "suspicious_logins_public_v2.csv": {
-      "sha256": "47be2f74f1c1db3f1dbed2cf4343ca099de9a1ca59373c1b5eff2686688073ec",
-      "rows": 73526,
+    "HEIAuthRisk_public_v1.csv": {
+      "sha256": "66ebaf1475eb16453180c50f565cd3f46877fe936cac5ec7c6449d6e841e0fe7",
+      "rows": 73527,
       "columns": 42
     },
-    "suspicious_logins_restricted_v2.csv": {
-      "sha256": "dcf78de104b3bf4dad77502193dfd3af406844bc6afc1ea0570ddeb05cf366af",
-      "rows": 73526,
+    "HEIAuthRisk_restricted_v1.csv": {
+      "sha256": "1ca99a980d9687884cd9b9d246ceb495da82a65b324e0f00140c1287a88ae457",
+      "rows": 73527,
       "columns": 50
     }
   }

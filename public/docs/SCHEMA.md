@@ -1,4 +1,4 @@
-# Technical Schema — SuspiciousLogin v2.0 (42/50)
+# Technical Schema — HEIAuthRisk (42/50)
 
 Scientific file format: UTF-8 CSV, `,` separator, header on the first line.
 

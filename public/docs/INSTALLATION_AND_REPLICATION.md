@@ -7,8 +7,8 @@ This guide separates two operations: **using the public release** and **replicat
 Requirements: Python 3.10+.
 
 ```bash
-git clone https://github.com/salomaopena/SuspiciousLoginDataset.git
-cd SuspiciousLogin
+git clone https://github.com/salomaopena/HEIAuthRisk.git
+cd HEIAuthRisk
 python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .\.venv\Scripts\Activate.ps1

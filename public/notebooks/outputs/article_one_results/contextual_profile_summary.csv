@@ -1,6 +1,6 @@
 domain,metric,median,q75,q95,maximum
 Activity,Logins in 24 h,1.0,2.0,6.0,90.0
-Activity,Logins in 30 d,3.0,18.0,65.0,686.0
+Activity,Logins in 30 d,3.0,18.0,65.0,685.0
 Activity,Active days in 30 d,2.0,10.0,20.0,28.0
 Network,Distinct networks in 30 d,1.0,3.0,20.0,46.0
 Geography,Distinct countries in 30 d,1.0,1.0,1.0,7.0

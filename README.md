@@ -1,6 +1,6 @@
-# SuspiciousLogin: Successful Cloud Identity Authentication Events for Behavioral and Security Analysis
+# HEIAuthRisk: Successful Cloud Identity Authentication Events for Behavioral and Security Analysis
 
-**SuspiciousLogin** is a pseudonymized dataset of successful authentications in cloud identity environments, built from real records from two higher education institutions.
+**HEIAuthRisk** is a pseudonymized dataset of successful authentications in cloud identity environments, built from real records from two higher education institutions.
 
 Release v2.0 contains **73,526 successful authentication events**, associated with **12,190 pseudonymized actors**, observed between **December 19, 2025, and August 12, 2026**. The dataset combines temporal, historical, network, geographic, and authentication attributes with the operational `provider_suspicious` signal provided by the identity provider.
 
@@ -17,7 +17,7 @@ The public dataset was designed for open research, behavioral analysis, identity
 
 ## `README.md` Structure
 
-This document provides the information needed to understand, install, validate, and reuse the public release of SuspiciousLogin v2.0.
+This document provides the information needed to understand, install, validate, and reuse the public release of HEIAuthRisk v2.0.
 
 The structure includes:
 
@@ -105,7 +105,7 @@ The exact versions tested by the authors are recorded in:
 The recommended organization separates public material from internal and restricted artifacts.
 
 ```text
-suspiciouslogin-public/                         (PUBLIC)
+HEIAuthRisk-public/                         (PUBLIC)
 ├── README.md
 ├── LICENSE-DATASET.txt
 ├── LICENSE-CODE.txt
@@ -138,7 +138,7 @@ suspiciouslogin-public/                         (PUBLIC)
 ```
 
 ```text
-suspiciouslogin-restricted/                 (RESTRICTED / INTERNAL)
+HEIAuthRisk-restricted/                 (RESTRICTED / INTERNAL)
 ├── .env
 ├── .gitignore
 ├── credentials.json
@@ -228,9 +228,9 @@ suspicious_logins_demo_sample.csv is a small subset intended for inspection, tut
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/salomaopena/SuspiciousLoginDataset.git
+git clone https://github.com/salomaopena/HEIAuthRiskDataset.git
 
-cd suspiciouslogin-dataset
+cd HEIAuthRisk-dataset
 
 # 2. Create a virtual environment
 python3 -m venv venv
@@ -485,7 +485,7 @@ and:
 
 **Repository:**
 
-[*https://github.com/salomaopena/SuspiciousLoginDataset*](https://github.com/salomaopena/SuspiciousLoginDataset)
+[*https://github.com/salomaopena/HEIAuthRiskDataset*](https://github.com/salomaopena/HEIAuthRiskDataset)
 
 **DOI / Zenodo:**
 
@@ -507,7 +507,7 @@ See:
 
 ```text
 Pena, S. B. N.; Quincozes, S. E.; Miani, R. S.
-SuspiciousLogin: A Dataset of Successful Cloud Identity Authentication Events
+HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events
 for Behavioral and Security Analysis.
 Dataset version 2.0.
 2026. <DOI/URL>.

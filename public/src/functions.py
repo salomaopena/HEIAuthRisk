@@ -1,5 +1,5 @@
 """
-Geolocation helper for SuspiciousLogin.
+Geolocation helper for HEIAuthRisk.
 
 Conservative behavior:
 - validates IP input;

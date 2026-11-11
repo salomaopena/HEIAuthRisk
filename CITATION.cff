@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "SuspiciousLogin: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and Risk Analysis"
+title: "HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and Risk Analysis"
 authors:
   - family-names: "Pena"
     given-names: "Salomão Bento Nilo"
@@ -15,10 +15,10 @@ authors:
     given-names: "Rodrigo Sanches"
     affiliation: "Universidade Federal de Uberlândia (UFU)"
     orcid: "https://orcid.org/0000-0002-8176-8040"
-repository-code: "https://github.com/salomaopena/SuspiciousLoginDataset"
-url: "https://github.com/salomaopena/SuspiciousLoginDataset"
+repository-code: "https://github.com/salomaopena/HEIAuthRisk"
+url: "https://github.com/salomaopena/HEIAuthRisk"
 abstract: >-
-  SuspiciousLogin is a pseudonymized dataset of 73,526 successful Google Workspace
+  HEIAuthRisk is a pseudonymized dataset of 73,526 successful Google Workspace
   authentication events associated with 12,190 actor pseudonyms from two higher-education
   institutions. The public v2 schema contains 23 attributes covering authentication context,
   observed history, recent login frequency, network and geographic novelty, and the
@@ -36,7 +36,7 @@ license: CC-BY-NC-4.0
 version: "2.0.0"
 preferred-citation:
   type: dataset
-  title: "SuspiciousLogin: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and security Analysis"
+  title: "HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and security Analysis"
   authors:
     - family-names: "Pena"
       given-names: "Salomão Bento Nilo"

@@ -1,8 +1,8 @@
-# Privacy, Pseudonymization, and Governance — SuspiciousLogin v2.0
+# Privacy, Pseudonymization, and Governance — HEIAuthRisk
 
 ## 1. Terminology
 
-SuspiciousLogin is **pseudonymized**. Stable identifiers allow events from the same actor to be linked throughout the observed period. No claim is made that reidentification is impossible.
+HEIAuthRisk is **pseudonymized**. Stable identifiers allow events from the same actor to be linked throughout the observed period. No claim is made that reidentification is impossible.
 
 ## 2. Public Identifiers
 

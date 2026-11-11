@@ -1,6 +1,6 @@
-SuspiciousLogin Dataset — License
+HEIAuthRisk Dataset — License
 
-The public SuspiciousLogin v2 dataset and associated dataset documentation are licensed under:
+The public HEIAuthRisk v2 dataset and associated dataset documentation are licensed under:
 
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 

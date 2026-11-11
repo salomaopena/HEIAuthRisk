@@ -42,7 +42,7 @@ def main() -> None:
     first_event_change = ((df["history_available"] == 0) & (df["country_changed"] == 1)).sum()
     assert first_event_change == 0, "country_changed cannot be 1 on a first observed event"
 
-    print("SuspiciousLogin v2 public release validation passed.")
+    print("HEIAuthRisk v2 public release validation passed.")
 
 
 if __name__ == "__main__":

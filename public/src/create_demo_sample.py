@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create an actor-preserving demo sample from SuspiciousLogin v2.0."""
+"""Create an actor-preserving demo sample from HEIAuthRisk."""
 
 from __future__ import annotations
 
@@ -37,7 +37,7 @@ DEFAULT_OUTPUT = (
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
-        description="Create an actor-preserving demo sample from SuspiciousLogin."
+        description="Create an actor-preserving demo sample from HEIAuthRisk."
     )
     p.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     p.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
@@ -212,7 +212,7 @@ def main() -> None:
     actors = int(sample["actor_pseudo_id"].nunique())
 
     print("=" * 72)
-    print("SuspiciousLogin demo sample created")
+    print("HEIAuthRisk demo sample created")
     print(f"Source events:       {len(df):,}")
     print(f"Sample events:       {len(sample):,}")
     print(f"Selected actors:     {actors:,}")

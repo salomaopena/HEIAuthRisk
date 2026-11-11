@@ -1,13 +1,13 @@
 domain,signal,events_with_signal,comparable_events,percent,analytical_meaning
-Observed history,Prior observed history available,61336,73526,83.42083072654572,The event can be interpreted against earlier observed behavior for the same actor.
-Network,Previously unseen network,25494,61336,41.564497195774095,"Current actor-scoped network context had not been observed previously for the actor; this is novelty, not evidence of maliciousness."
-Network,Network changed,29642,61336,48.32724664145037,Current known network differs from the actor's immediately previous observed event.
-Geography,Previously unseen country,252,61335,0.41085840058694056,Current known country had not been observed previously for the actor.
-Geography,Country changed,605,61334,0.9864023217138943,Current known country differs from the country of the immediately previous observed event.
-Geography,Previously unseen continent,187,61335,0.3048830194831662,Current known continent had not been observed previously for the actor.
-Geography,Continent changed,531,61334,0.8657514592232693,Current known continent differs from the continent of the immediately previous observed event.
-Authentication,Previously unseen login type,7836,61336,12.775531498630494,Current login type had not been observed previously for the actor.
-Authentication,Login type changed,16858,61336,27.484674579366114,Current login type differs from the actor's immediately previous observed event.
-Authentication,Previously unseen challenge,13693,61335,22.324936822368958,At least one current challenge category had not been observed previously for the actor.
-Authentication,Challenge changed,21651,61334,35.30015978087195,The normalized set of challenge categories differs from the immediately previous observed event.
-Provider signal,Provider flagged event,7196,73526,9.78701411745505,Operational suspiciousness signal produced by the provider; not confirmed compromise and not ground truth.
+Observed history,Prior observed history available,61337,73527,83.42105621064371,The event can be interpreted against earlier observed behavior for the same actor.
+Network,Previously unseen network,25495,61337,41.56544989158257,"Current actor-scoped network context had not been observed previously for the actor; this is novelty, not evidence of maliciousness."
+Network,Network changed,29643,61337,48.328089081630985,Current known network differs from the actor's immediately previous observed event.
+Geography,Previously unseen country,252,61334,0.41086509929239895,Current known country had not been observed previously for the actor.
+Geography,Country changed,605,61331,0.9864505714891327,Current known country differs from the country of the immediately previous observed event.
+Geography,Previously unseen continent,187,61334,0.304887990347931,Current known continent had not been observed previously for the actor.
+Geography,Continent changed,531,61331,0.8657938073731065,Current known continent differs from the continent of the immediately previous observed event.
+Authentication,Previously unseen login type,7836,61337,12.775323214373055,Current login type had not been observed previously for the actor.
+Authentication,Login type changed,16858,61337,27.484226486460052,Current login type differs from the actor's immediately previous observed event.
+Authentication,Previously unseen challenge,13693,61337,22.32420887881703,At least one current challenge category had not been observed previously for the actor.
+Authentication,Challenge changed,21652,61337,35.30006358315536,The normalized set of challenge categories differs from the immediately previous observed event.
+Provider signal,Provider flagged event,7196,73527,9.786881009697119,Operational suspiciousness signal produced by the provider; not confirmed compromise and not ground truth.

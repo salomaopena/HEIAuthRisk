@@ -1,4 +1,4 @@
-# Data Dictionary — SuspiciousLogin v2.0
+# Data Dictionary — HEIAuthRisk
 
 ## Consolidated Scientific Schema (42 Public / 50 Restricted)
 

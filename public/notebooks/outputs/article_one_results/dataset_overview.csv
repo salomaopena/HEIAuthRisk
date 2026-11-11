@@ -1,9 +1,9 @@
 metric,value
-Authentication events,73526
+Authentication events,73527
 Pseudonymized actors,12190
 Public attributes,42
 Provider flagged events,7196
-Provider not-flagged events,66330
-Provider flagged proportion (%),9.78701411745505
+Provider not-flagged events,66331
+Provider flagged proportion (%),9.786881009697119
 Public time coverage start (hour UTC),2025-12-19T19:00:00+00:00
 Public time coverage end (hour UTC),2026-08-12T16:00:00+00:00
