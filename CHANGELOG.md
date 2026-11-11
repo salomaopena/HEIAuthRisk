@@ -7,8 +7,8 @@ The project follows [Semantic Versioning](https://semver.org/).
 
 Initial public release.
 
-- Pseudonymized dataset of 73,526 successful Google Workspace authentication events associated with 12,190 actor pseudonyms from two higher-education institutions.
-- Public schema with 23 attributes covering authentication context, observed history, recent login frequency, and network and geographic novelty.
+- Pseudonymized dataset of 73,527 successful Google Workspace authentication events associated with 12,190 actor pseudonyms from two higher-education institutions.
+- Public schema with 42 attributes covering authentication context, observed history, recent login frequency, and network and geographic novelty.
 - Provider-generated `provider_suspicious` operational signal (not forensic ground truth of account compromise).
 - Institution-specific HMAC pseudonymization applied in the processing stage.
 - Public timestamps generalized to hour-level UTC and rare countries grouped as `Other`.
