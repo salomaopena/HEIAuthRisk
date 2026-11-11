@@ -2,7 +2,7 @@
 
 **HEIAuthRisk** is a pseudonymized dataset of successful authentications in cloud identity environments, built from real records from two higher education institutions.
 
-Release v2.0 contains **73,526 successful authentication events**, associated with **12,190 pseudonymized actors**, observed between **December 19, 2025, and August 12, 2026**. The dataset combines temporal, historical, network, geographic, and authentication attributes with the operational `provider_suspicious` signal provided by the identity provider.
+Release v1.0 contains **73,527 successful authentication events**, associated with **12,190 pseudonymized actors**, observed between **December 19, 2025, and August 12, 2026**. The dataset combines temporal, historical, network, geographic, and authentication attributes with the operational `provider_suspicious` signal provided by the identity provider.
 
 > **Important:** `provider_suspicious=1` only means that the event was flagged by the provider. The field does not constitute *ground truth* of an attack, compromise, or confirmed malicious activity.
 
@@ -17,7 +17,7 @@ The public dataset was designed for open research, behavioral analysis, identity
 
 ## `README.md` Structure
 
-This document provides the information needed to understand, install, validate, and reuse the public release of HEIAuthRisk v2.0.
+This document provides the information needed to understand, install, validate, and reuse the public release of HEIAuthRisk v1.0.
 
 The structure includes:
 
@@ -44,7 +44,7 @@ The documents below are part of the release specification and audit.
 | **Data Audit Report** | Results of the integrity, consistency, and quality audit | [Open Audit Report](public/docs/DATA_AUDIT_REPORT.md) |
 | **Privacy and Pseudonymization Report** | Pseudonymization strategy, minimization, and privacy limitations | [Open Privacy Report](public/docs/PRIVACY_PSEUDONYMIZATION.md) |
 | **Installation and Replication Guide** | Detailed installation and methodological replication instructions | [Open guide](public/docs/INSTALLATION_AND_REPLICATION.md) |
-| **Dataset Manifest** | Machine-readable metadata, schema, hashes, and release information | [Open manifest](public/data/dataset_manifest_v2.json) |
+| **Dataset Manifest** | Machine-readable metadata, schema, hashes, and release information | [Open manifest](public/data/dataset_manifest_v1.json) |
 | **Public Results Notebook** | Reproduction of the descriptive analyses from Article 1 using only public data | [Open notebook](public/notebooks/article_one_results_analysis.ipynb) |
 
 ---
@@ -115,8 +115,8 @@ HEIAuthRisk-public/                         (PUBLIC)
 ├── requirements.txt
 │
 ├── data/
-│   ├── suspicious_logins_public_v2.csv
-│   └── dataset_manifest_v2.json
+│   ├── suspicious_logins_public_v1.csv
+│   └── dataset_manifest_v1.json
 │
 ├── notebooks/
 │   └── article_one_results_analysis.ipynb
@@ -148,7 +148,7 @@ HEIAuthRisk-restricted/                 (RESTRICTED / INTERNAL)
 │   │   ├── institution_a/
 │   │   └── institution_b/
 │   └── processed/
-│       └── suspicious_logins_restricted_v2.csv
+│       └── suspicious_logins_restricted_v1.csv
 │
 ├── notebooks/
 │   └── article_one_statistics_release_gate.ipynb
@@ -171,12 +171,12 @@ HEIAuthRisk-restricted/                 (RESTRICTED / INTERNAL)
 The file:
 
 ```text
-data/suspicious_logins_public_v2.csv
+data/suspicious_logins_public_v1.csv
 ```
 
 contains:
 
-- **73,526 events**;
+- **73,527 events**;
 - **42 attributes**;
 - **12,190 pseudonymized actors**.
 
@@ -257,7 +257,7 @@ The test below checks whether the public dataset has the expected size and schem
 python3 -c "
 import pandas as pd
 
-df = pd.read_csv('data/suspicious_logins_public_v2.csv')
+df = pd.read_csv('data/suspicious_logins_public_v1.csv')
 
 assert len(df) == 73526, f'Unexpected number of events: {len(df)}'
 assert len(df.columns) == 42, f'Unexpected number of attributes: {len(df.columns)}'
@@ -292,7 +292,7 @@ The public notebook:
 uses only:
 
 ```text
-data/suspicious_logins_public_v2.csv
+data/suspicious_logins_public_v1.csv
 ```
 
 and reproduces the descriptive analyses compatible with the public release.
@@ -309,7 +309,7 @@ Reproduces:
 Reference values:
 
 ```text
-Events:                 73,526
+Events:                 73,527
 Pseudonymized actors:   12,190
 provider_suspicious = 1: 7,196
 provider_suspicious = 0: 66,330
@@ -425,7 +425,7 @@ RELEASE VALIDATION: PASS
 
 The exported validation report can be consulted at:
 
-[**Final Release Validation Report**](public/data/dataset_manifest_v2.json)
+[**Final Release Validation Report**](public/data/dataset_manifest_v1.json)
 
 ---
 
@@ -447,7 +447,7 @@ Another institution with legitimate access to its own records can reuse the extr
 
 ### Full Reconstruction
 
-The exact reconstruction of the 73,526 original events is not public because it depends on the original institutional logs and private pseudonymization keys.
+The exact reconstruction of the 73,527 original events is not public because it depends on the original institutional logs and private pseudonymization keys.
 
 More details:
 
@@ -471,7 +471,7 @@ The release is accompanied by a machine-readable manifest containing information
 
 See:
 
-[**Dataset Manifest**](public/data/dataset_manifest_v2.json)
+[**Dataset Manifest**](public/data/dataset_manifest_v1.json)
 
 and:
 
