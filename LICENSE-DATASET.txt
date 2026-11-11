@@ -1,13 +1,13 @@
 HEIAuthRisk Dataset — License
 
-The public HEIAuthRisk v2 dataset and associated dataset documentation are licensed under:
+The public HEIAuthRisk v1 dataset and associated dataset documentation are licensed under:
 
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 You may share and adapt the material under the conditions of attribution and non-commercial use.
 The full legal text is available at https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
-This license applies to `data/suspicious_logins_public_v2.csv`, the public schema, data dictionary, dataset card, provenance documentation, and associated public documentation.
+This license applies to `data/HEIAuthRisk_public_v1.csv`, the public schema, data dictionary, dataset card, provenance documentation, and associated public documentation.
 
 The restricted dataset, raw institutional logs, intermediate identifiers, credentials, and HMAC keys are not published under this open license and remain under controlled access.
 

@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Monoid, Consolas, 'Courier New', monospace, 'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Cascadia Code', 'Ubuntu Mono', 'Monaco', 'Menlo', 'Lucida Console'",
+    "editor.fontFamily": "Monoid, Consolas, 'Courier New', monospace, 'Fira Code', 'JetBrains Mono', 'Source Code Pro', 'Ubuntu Mono', 'Monaco', 'Menlo', 'Lucida Console'",
     "editor.fontSize": 19,
     "editor.lineHeight": 30,
     "editor.tabSize": 4,
