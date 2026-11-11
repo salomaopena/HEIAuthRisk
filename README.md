@@ -115,7 +115,7 @@ HEIAuthRisk-public/                         (PUBLIC)
 ├── requirements.txt
 │
 ├── data/
-│   ├── suspicious_logins_public_v1.csv
+│   ├── HEIAuthRisk_public_v1.csv
 │   └── dataset_manifest_v1.json
 │
 ├── notebooks/
@@ -148,7 +148,7 @@ HEIAuthRisk-restricted/                 (RESTRICTED / INTERNAL)
 │   │   ├── institution_a/
 │   │   └── institution_b/
 │   └── processed/
-│       └── suspicious_logins_restricted_v1.csv
+│       └── HEIAuthRisk_restricted_v1.csv
 │
 ├── notebooks/
 │   └── article_one_statistics_release_gate.ipynb
