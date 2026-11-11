@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and Risk Analysis"
+title: "HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and Security Analysis"
 authors:
   - family-names: "Pena"
     given-names: "Salomão Bento Nilo"
-    affiliation: "Universidade Federal de Uberlândia (UFU)"
+    affiliation: "Instituto Superior de Ciências da Educação da Huíla (ISCED-Huíla); Universidade Federal de Uberlândia (UFU)"
     orcid: "https://orcid.org/0000-0001-5973-0612"
   - family-names: "Quincozes"
     given-names: "Silvio Ereno"
@@ -20,28 +20,15 @@ url: "https://github.com/salomaopena/HEIAuthRisk"
 abstract: >-
   HEIAuthRisk is a pseudonymized dataset of 73,526 successful Google Workspace
   authentication events associated with 12,190 actor pseudonyms from two higher-education
-  institutions. The public v2 schema contains 23 attributes covering authentication context,
+  institutions. The public schema contains 23 attributes covering authentication context,
   observed history, recent login frequency, network and geographic novelty, and the
   provider-generated provider_suspicious operational signal. The signal is not forensic
   ground truth of account compromise.
 keywords:
-  - cloud security
-  - identity security
-  - authentication
-  - behavioral analysis
-  - Google Workspace
-  - suspicious login
-  - cybersecurity dataset
+  - Cloud identity
+  - User and entity behavior analytics
+  - Cybersecurity dataset
+  - Suspicious login
+  - Behavioral analysis
 license: CC-BY-NC-4.0
-version: "2.0.0"
-preferred-citation:
-  type: dataset
-  title: "HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and security Analysis"
-  authors:
-    - family-names: "Pena"
-      given-names: "Salomão Bento Nilo"
-    - family-names: "Quincozes"
-      given-names: "Silvio Ereno"
-    - family-names: "Miani"
-      given-names: "Rodrigo Sanches"
-  year: 2026
+version: "1.0.0"

@@ -2,11 +2,11 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "HEIAuthRisk Validation and Characterization Code",
-  "description": "Validation and descriptive-characterization code for the HEIAuthRisk v2 public dataset release.",
+  "description": "Validation and descriptive-characterization code for the HEIAuthRisk public dataset release.",
   "codeRepository": "https://github.com/salomaopena/HEIAuthRisk",
   "issueTracker": "https://github.com/salomaopena/HEIAuthRisk/issues",
   "license": "https://opensource.org/licenses/MIT",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "Python",
@@ -20,66 +20,43 @@
     "macOS"
   ],
   "softwareRequirements": [
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "pandas",
-      "name": "pandas"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "numpy",
-      "name": "numpy"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "matplotlib",
-      "name": "matplotlib"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "jupyter",
-      "name": "jupyter"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "pytest",
-      "name": "pytest"
-    }
+    {"@type": "SoftwareApplication", "identifier": "pandas", "name": "pandas"},
+    {"@type": "SoftwareApplication", "identifier": "numpy", "name": "numpy"},
+    {"@type": "SoftwareApplication", "identifier": "matplotlib", "name": "matplotlib"},
+    {"@type": "SoftwareApplication", "identifier": "jupyter", "name": "jupyter"},
+    {"@type": "SoftwareApplication", "identifier": "pytest", "name": "pytest"}
   ],
   "keywords": [
-    "cloud security",
-    "identity security",
-    "authentication",
-    "dataset validation",
-    "behavioral analysis"
+    "Cloud identity",
+    "User and entity behavior analytics",
+    "Cybersecurity dataset",
+    "Suspicious login",
+    "Behavioral analysis"
   ],
   "author": [
     {
       "@type": "Person",
       "givenName": "Salomão Bento Nilo",
       "familyName": "Pena",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Instituto Superior de Ciências da Educação da Huíla | Universidade Federal de Uberlândia (UFU)"
-      }
+      "@id": "https://orcid.org/0000-0001-5973-0612",
+      "affiliation": [
+        {"@type": "Organization", "name": "Instituto Superior de Ciências da Educação da Huíla (ISCED-Huíla)"},
+        {"@type": "Organization", "name": "Universidade Federal de Uberlândia (UFU)"}
+      ]
     },
     {
       "@type": "Person",
       "givenName": "Silvio Ereno",
       "familyName": "Quincozes",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universidade Federal de Uberlândia (UFU)"
-      }
+      "@id": "https://orcid.org/0000-0001-6793-4033",
+      "affiliation": {"@type": "Organization", "name": "Universidade Federal de Uberlândia (UFU)"}
     },
     {
       "@type": "Person",
       "givenName": "Rodrigo Sanches",
       "familyName": "Miani",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universidade Federal de Uberlândia (UFU)"
-      }
+      "@id": "https://orcid.org/0000-0002-8176-8040",
+      "affiliation": {"@type": "Organization", "name": "Universidade Federal de Uberlândia (UFU)"}
     }
   ],
   "relatedLink": [

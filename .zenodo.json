@@ -1,39 +1,41 @@
 {
   "title": "HEIAuthRisk: A Dataset of Successful Cloud Identity Authentication Events for Behavioral and Security Analysis",
-  "description": "HEIAuthRisk v2 is a pseudonymized dataset of 73,526 successful Google Workspace authentication events associated with 12,190 actor pseudonyms from two higher-education institutions. The public schema contains 23 attributes covering authentication context, observed history, recent login frequency, network and geographic novelty, and the provider-generated provider_suspicious operational signal. The signal is not forensic ground truth of account compromise. The public artifact includes the v2 dataset, manifest, validation code, data dictionary, privacy/provenance documentation, and the Article 1 characterization notebook.",
-  "version": "2.0.0",
+  "description": "HEIAuthRisk is a pseudonymized dataset of 73,526 successful Google Workspace authentication events associated with 12,190 actor pseudonyms from two higher-education institutions. The public schema contains 23 attributes covering authentication context, observed history, recent login frequency, network and geographic novelty, and the provider-generated provider_suspicious operational signal. The signal is not forensic ground truth of account compromise. The public artifact includes the dataset, manifest, validation code, data dictionary, privacy/provenance documentation, and the Article 1 characterization notebook.",
+  "version": "1.0.0",
   "upload_type": "dataset",
   "access_right": "open",
-  "license": "CC-BY-NC-4.0",
+  "license": "cc-by-nc-4.0",
   "language": "eng",
   "keywords": [
-    "cloud security",
-    "identity security",
-    "authentication",
-    "behavioral analysis",
-    "suspicious login",
-    "cybersecurity dataset"
+    "Cloud identity",
+    "User and entity behavior analytics",
+    "Cybersecurity dataset",
+    "Suspicious login",
+    "Behavioral analysis"
   ],
   "creators": [
     {
       "name": "Pena, Salomão Bento Nilo",
-      "affiliation": "Instituto Superior de Ciências da Educação da Huíla | Universidade Federal de Uberlândia (UFU)"
+      "affiliation": "Instituto Superior de Ciências da Educação da Huíla (ISCED-Huíla); Universidade Federal de Uberlândia (UFU)",
+      "orcid": "0000-0001-5973-0612"
     },
     {
       "name": "Quincozes, Silvio Ereno",
-      "affiliation": "Universidade Federal de Uberlândia (UFU)"
+      "affiliation": "Universidade Federal de Uberlândia (UFU)",
+      "orcid": "0000-0001-6793-4033"
     },
     {
       "name": "Miani, Rodrigo Sanches",
-      "affiliation": "Universidade Federal de Uberlândia (UFU)"
+      "affiliation": "Universidade Federal de Uberlândia (UFU)",
+      "orcid": "0000-0002-8176-8040"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/salomaopena/HEIAuthRiskDataset/",
+      "identifier": "https://github.com/salomaopena/HEIAuthRisk",
       "relation": "isSupplementedBy",
       "resource_type": "software"
     }
   ],
-  "notes": "Only the public v2 dataset is included. The restricted tier, raw institutional logs, credentials, and HMAC keys are not part of this public record. provider_suspicious is an operational provider signal, not forensic ground truth."
+  "notes": "Only the public dataset is included. The restricted tier, raw institutional logs, credentials, and HMAC keys are not part of this public record. provider_suspicious is an operational provider signal, not forensic ground truth."
 }
