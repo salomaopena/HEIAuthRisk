@@ -489,7 +489,7 @@ and:
 
 **DOI / Zenodo:**
 
-[<INSERT_DOI_OR_ZENODO_URL>](https://...)
+[*https://doi.org/10.5281/zenodo.24125311*](https://doi.org/10.5281/zenodo.24125311)
 
 ### Restricted Data
 
@@ -531,7 +531,7 @@ Salomão Bento Nilo Pena
 <INSERT_AFFILIATION>
 
 **Institutional email:**  
-<INSERT_EMAIL>
+salomao.pena@isced-huila.edu.ao
 
 **Project page:**  
 <INSERT_PROJECT_URL>

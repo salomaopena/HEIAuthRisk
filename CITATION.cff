@@ -18,9 +18,9 @@ authors:
 repository-code: "https://github.com/salomaopena/HEIAuthRisk"
 url: "https://github.com/salomaopena/HEIAuthRisk"
 abstract: >-
-  HEIAuthRisk is a pseudonymized dataset of 73,526 successful Google Workspace
+  HEIAuthRisk is a pseudonymized dataset of 73,527 successful Google Workspace
   authentication events associated with 12,190 actor pseudonyms from two higher-education
-  institutions. The public schema contains 23 attributes covering authentication context,
+  institutions. The public schema contains 42 attributes covering authentication context,
   observed history, recent login frequency, network and geographic novelty, and the
   provider-generated provider_suspicious operational signal. The signal is not forensic
   ground truth of account compromise.
