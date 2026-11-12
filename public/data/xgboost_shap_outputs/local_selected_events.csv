@@ -1,0 +1,3 @@
+selection_rule,position,event_id,event_time_hour_utc,observed_provider_suspicious,class1_model_score
+highest_score,9413,Eb3b2e01f8c515fe9a15d324ac858af73,2026-07-29 15:00:00+00:00,1,0.9973467588424683
+lowest_score,10388,Edbfd9bd334124272450db341541bc212,2026-08-08 06:00:00+00:00,0,7.603312610626745e-07

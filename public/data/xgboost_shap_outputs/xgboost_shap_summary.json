@@ -1,0 +1,114 @@
+{
+  "dataset": "HEIAuthRisk v1 public release",
+  "events": 73527,
+  "actors": 12190,
+  "target": "provider_suspicious",
+  "model": "XGBoost",
+  "split": "temporal 70/15/15 approximately, preserving complete UTC hours",
+  "rolling_temporal_validation": false,
+  "use_class_weight": true,
+  "scale_pos_weight": 8.947999226754302,
+  "roc_auc_test": 0.8999402333192122,
+  "pr_auc_test": 0.40071505008024344,
+  "shap_scope": "test",
+  "shap_backend": "xgboost_pred_contribs_sparse",
+  "shap_additivity_max_error": 1.9073486328125e-05,
+  "shap_approximate": false,
+  "shap_max_rows": null,
+  "shap_explained_events": 11033,
+  "top_source_variables": [
+    {
+      "source_variable": "login_type",
+      "mean_abs_shap": 1.336067768006857,
+      "relative_percent": 17.84734294054689
+    },
+    {
+      "source_variable": "networks_seen_to_date",
+      "mean_abs_shap": 0.7570437068178731,
+      "relative_percent": 10.11267465625447
+    },
+    {
+      "source_variable": "is_new_ip",
+      "mean_abs_shap": 0.6325216877298189,
+      "relative_percent": 8.449295573598219
+    },
+    {
+      "source_variable": "distinct_networks_30d",
+      "mean_abs_shap": 0.5076329625227664,
+      "relative_percent": 6.781017989517955
+    },
+    {
+      "source_variable": "prior_event_count",
+      "mean_abs_shap": 0.47637571730385087,
+      "relative_percent": 6.363480205763941
+    },
+    {
+      "source_variable": "login_challenge_method",
+      "mean_abs_shap": 0.46170112518598583,
+      "relative_percent": 6.167455360084976
+    },
+    {
+      "source_variable": "ip_country",
+      "mean_abs_shap": 0.41098123311051493,
+      "relative_percent": 5.4899333589900365
+    },
+    {
+      "source_variable": "distinct_login_types_30d",
+      "mean_abs_shap": 0.39347097269050746,
+      "relative_percent": 5.256029338417515
+    },
+    {
+      "source_variable": "event_hour",
+      "mean_abs_shap": 0.3650373928880868,
+      "relative_percent": 4.876210393665751
+    },
+    {
+      "source_variable": "month",
+      "mean_abs_shap": 0.320492201554171,
+      "relative_percent": 4.281170736901431
+    }
+  ],
+  "group_importance": [
+    {
+      "group": "Authentication",
+      "mean_abs_shap": 2.5800889335010164,
+      "relative_percent": 34.46511705165707
+    },
+    {
+      "group": "Network",
+      "mean_abs_shap": 2.1132682999384143,
+      "relative_percent": 28.229274725078035
+    },
+    {
+      "group": "Activity/history",
+      "mean_abs_shap": 1.2815668677892589,
+      "relative_percent": 17.11931380905825
+    },
+    {
+      "group": "Temporal",
+      "mean_abs_shap": 0.8171425927512654,
+      "relative_percent": 10.915482308143396
+    },
+    {
+      "group": "Geography",
+      "mean_abs_shap": 0.6940211368953125,
+      "relative_percent": 9.270812106063257
+    }
+  ],
+  "local_highest_score_event": {
+    "selection_rule": "highest_score",
+    "position": 9413,
+    "event_id": "Eb3b2e01f8c515fe9a15d324ac858af73",
+    "event_time_hour_utc": "2026-07-29T15:00:00+00:00",
+    "observed_provider_suspicious": 1,
+    "class1_model_score": 0.9973467588424683
+  },
+  "local_lowest_score_event": {
+    "selection_rule": "lowest_score",
+    "position": 10388,
+    "event_id": "Edbfd9bd334124272450db341541bc212",
+    "event_time_hour_utc": "2026-08-08T06:00:00+00:00",
+    "observed_provider_suspicious": 0,
+    "class1_model_score": 7.603312610626745e-07
+  }
+}

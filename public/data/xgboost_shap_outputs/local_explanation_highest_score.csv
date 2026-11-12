@@ -1,0 +1,13 @@
+selection_rule,event_id,class1_model_score,observed_provider_suspicious,transformed_feature,feature_value,shap_value,abs_shap,direction
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,login_challenge_method_password|idv_any_phone,1.0,3.7344162,3.7344162,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,is_new_challenge,1.0,1.1601897,1.1601897,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,challenge_changed,1.0,0.6708936,0.6708936,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,login_challenge_method_password,0.0,0.6258503,0.6258503,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,networks_seen_to_date,21.0,-0.5842483,0.5842483,toward provider_suspicious=0
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,login_challenge_method_none,0.0,0.38706666,0.38706666,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,month,7.0,0.32993522,0.32993522,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,ip_country_Brazil,0.0,-0.3004294,0.3004294,toward provider_suspicious=0
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,distinct_networks_30d,3.0,-0.28790084,0.28790084,toward provider_suspicious=0
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,login_type_reauth,0.0,-0.2677162,0.2677162,toward provider_suspicious=0
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,is_new_ip,1.0,0.25005248,0.25005248,toward provider_suspicious=1
+highest_score,Eb3b2e01f8c515fe9a15d324ac858af73,0.9973467588424683,1,prior_event_count,23.0,0.22957884,0.22957884,toward provider_suspicious=1

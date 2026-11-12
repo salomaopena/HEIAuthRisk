@@ -1,0 +1,4 @@
+metric,value
+ROC-AUC,0.8999402333192122
+PR-AUC / Average Precision,0.40071505008024344
+Test positive prevalence,0.07142209734433065
